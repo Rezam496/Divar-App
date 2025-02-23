@@ -9,8 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.36.1",
+    "@tanstack/react-query-devtools": "^4.36.1",
     "axios": "^1.7.9",
-    "preact": "^10.25.4"
+    "preact": "^10.25.4",
+    "react-router-dom": "^7.2.0"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.10.1",
