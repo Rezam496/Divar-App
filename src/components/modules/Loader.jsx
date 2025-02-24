@@ -1,9 +1,9 @@
-import srtyles from './Loader.module.css'
+import styles from './Loader.module.css'
 
 function Loader() {
   return (
-    <div className={StyleSheet.container}>
-        <span className={StyleSheet.Loader}></span>
+    <div className={styles.container}>
+        <span className={styles.Loader}></span>
     </div>
   )
 }

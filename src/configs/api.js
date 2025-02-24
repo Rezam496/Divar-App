@@ -3,7 +3,7 @@ import { getCookie, setCookie } from "../utils/cookie";
 import { getNewToken } from "../services/token";
 
 const api = axios.create({
-  baseURL:"http://localhost:3400/",
+  baseURL:import.meta.env.VITE_BASE_URL,
   headers: {
     "Content-Type": "application/json",
   },
